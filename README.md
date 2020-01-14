@@ -22,7 +22,7 @@ Dataset: https://www.kaggle.com/kyanyoga/sample-sales-data/data.
 It is important to notice that it might not be the only way of cleaning the data. It will depend on the needs and the meaning of each variable for your analysis.
 The notebook for tis example is *data_cleaning.ipynb*.  
 
-### Outlier detection: TODO
+## Outlier detection and data visualization: TODO
 
 ## Linear Regression
 This example uses a datasets of information about Sales and a example of linear regression is provided in order to predict the sales. In the notebook *linear_regression.ipynb* you will find the excecution of the example and the comparation between the predicted and real values of the sales variable. 
@@ -35,5 +35,13 @@ The notebook with the examples is *clustering_example.ipynb*.
 ## Neural Network
 Neural networks have many applications. Different application of neural networks are shown in these examples. 
 The notebook in this case is *neural_network_example.ipynb*.
+
+## Dimension Reduction : TODO
+
+## Association Rules : TODO
+
+## Anomaly detection: TODO 
+
+
 
 
