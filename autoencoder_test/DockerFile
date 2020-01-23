@@ -1,7 +1,0 @@
-FROM python:3.6
-
-ADD autoencoder.py /
-ADD requirements.txt
-RUN pip install -r requeriments.txt 
-
-CMD [ "python", "./autoencoder.py" ]

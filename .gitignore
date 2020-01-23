@@ -1,3 +1,11 @@
+*.npz
+*.zip
+*.csv
+links.csv
+movies.csv
+ratings.csv
+tags.csv
+
 #MAC files
 *.DS_Store
 
