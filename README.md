@@ -15,6 +15,13 @@ Here are mentioned the most common python libraries for data science.
 - Tensorflow:  modeling and deployment of ML algorithms
 - Nltk: tool for text processing.
 
+*Pandas data structures*   
+- DataFrame: 2-dimensional structure which can reference by column or row.  
+- Series: 1-dimensional array. Represents a single column. 
+
+A DataFrame is a collection of Series. 
+Possible datatypes for a column in a DataFrame: int,float, datetime, bool, category. To the common types it is added the 'category' type, which represents different values for the classes.  
+
 
 ## Data cleaning
 This is an example to apply data cleaning techniques. The main objective is to prepare the data to apply a prediction over the sales variable. 
@@ -22,7 +29,8 @@ Dataset: https://www.kaggle.com/kyanyoga/sample-sales-data/data.
 It is important to notice that it might not be the only way of cleaning the data. It will depend on the needs and the meaning of each variable for your analysis.
 The notebook for tis example is *data_cleaning.ipynb*.  
 
-## Outlier detection and data visualization: TODO
+## Data visualization  
+Several visualization methods are used in order to ilustrate examples of how to show results and analyze the data available. In this way it is easier to understand the data and the graphs can also help you to explain and support your assumptions. 
 
 ## Linear Regression
 This example uses a datasets of information about Sales and a example of linear regression is provided in order to predict the sales. In the notebook *linear_regression.ipynb* you will find the excecution of the example and the comparation between the predicted and real values of the sales variable. 
@@ -36,11 +44,12 @@ The notebook with the examples is *clustering_example.ipynb*.
 Neural networks have many applications. Different application of neural networks are shown in these examples. 
 The notebook in this case is *neural_network_example.ipynb*.
 
-## Dimension Reduction : TODO
+## Dimension Reduction  
+An example for dimension reduction is provided, appling Principal Components Analysis. It is explained how to choose the number of components and how to interpret the results. In order to better understanding of the results some graphs can be donde. The notebook for this example is *dimension_reduction.ipynb*.   
 
-## Association Rules : TODO
+## Recommendation system
+Examples for recommendation system is provided, one for content-based filtering and another for collaborative filtering. 
 
-## Anomaly detection: TODO 
 
 
 
