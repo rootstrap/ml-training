@@ -24,6 +24,20 @@ Here are mentioned the most common python libraries for data science.
 A DataFrame is a collection of Series. 
 Possible datatypes for a column in a DataFrame: int,float, datetime, bool, category. To the common types it is added the 'category' type, which represents different values for the classes.  
 
+## Environment
+Jupyter Notebook is used for the execution of the examples. 
+You can create a virtualenv with all the necessary dependencies executing the following commands.  
+```console
+virtualenv -p python3 ml-training  
+cd ml-training  
+source bin/activate  
+pip3 install -r requirements.txt   
+jupyter notebook   
+```
+If you want to close the environment execute: 
+```console
+deactivate
+```
 
 ## Data cleaning
 This is an example to apply data cleaning techniques. The main objective is to prepare the data to apply a prediction over the sales variable. 
@@ -55,16 +69,5 @@ Another example using digits data is presented, applying TSNE to visualize high 
 ## Recommendation system
 An example for recommendation system is provided for content-based filtering. You can download the data from https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip. 
 
-# Run virtualenv 
-```console
-virtualenv -p python3 ml-training  
-cd ml-training  
-source bin/activate  
-pip3 install -r requirements.txt   
-jupyter notebook   
-```
-If you want to close the environment execute: 
-```console
-deactivate
-```console
+
 
