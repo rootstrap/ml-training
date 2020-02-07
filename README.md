@@ -38,6 +38,19 @@ If you want to close the environment execute:
 ```console
 deactivate
 ```
+### Executing the examples 
+Go to http://localhost:8888/tree in the browser and open the notebook.   
+In order to execute the notebooks and hide the solution follow these steps:
+
+![Enable extension](nbextensions)
+
+1. Go to "Nbextensions" 
+2. Search for "hide_code" and enable it 
+3. Search for "Hide input all" and enable it
+4. Open the notebook and press a botton on the right that looks like an eye. 
+
+![Hide code](hide_code)
+
 
 ## Data cleaning
 This is an example to apply data cleaning techniques. The main objective is to prepare the data to apply a prediction over the sales variable. 
