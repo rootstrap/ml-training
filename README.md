@@ -16,6 +16,7 @@ Here are mentioned the most common python libraries for data science.
 - Tensorflow:  modeling and deployment of ML algorithms
 - Nltk: tool for text processing
 - Pytorch: o machine learning library used for developing and training neural network
+- matplotlib: library for plotting
 
 *Pandas data structures*   
 - DataFrame: 2-dimensional structure which can reference by column or row.  
@@ -41,15 +42,17 @@ deactivate
 ### Executing the examples 
 Go to http://localhost:8888/tree in the browser and open the notebook.   
 In order to execute the notebooks and hide the solution follow these steps:
-
-![Enable extension](nbextensions)
-
-1. Go to "Nbextensions" 
+   
+1. Go to "Nbextensions"  
 2. Search for "hide_code" and enable it 
-3. Search for "Hide input all" and enable it
-4. Open the notebook and press a botton on the right that looks like an eye. 
+3. Search for "Hide input all" and enable it   
+   
+![Enable extension](nbextensions.png)  
 
-![Hide code](hide_code)
+4. Open the notebook and press a botton on the right that looks like an eye. 
+   
+![Hide code](hide_code.png)    
+
 
 
 ## Data cleaning
@@ -61,10 +64,10 @@ The notebook for tis example is *data_cleaning.ipynb*.
 ## Data visualization  
 Several visualization methods are used in order to ilustrate examples of how to show results and analyze the data available. In this way it is easier to understand the data and the graphs can also help you to explain and support your assumptions. 
 
-## Linear Regression
-This example uses the dataset from the cleaning process, which contains information about Sales. An example of linear regression is provided in order to predict the sales. In the notebook *linear_regression.ipynb* you will find the excecution of the example and the comparation between the predicted and real values of the sales variable. 
+## Regression Models
+This example uses the dataset from the cleaning process, which contains information about Sales. In the notebook *linear_regression.ipynb* you will find the excecution of the three models to predict the sales variable. A comparison between the predicted and real values of the sales variable for each of the models.   
 
-## Classification  
+## Classification Models
 This examples uses the dataset which is output of the data cleaning process. This notebook *classification_example.ipynb* contains models of classification. The main idea is to classify the Sales according to DEALSIZE variable. 
 
 ## Clustering
