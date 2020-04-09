@@ -58,7 +58,11 @@ In order to execute the notebooks and hide the solution follow these steps:
    
 ![Hide code](hide_code.png)    
 
+## Playing with data frames 
+An example for basic actions over python datasets. You can find the notebook *intro-sol.ipynb*
 
+## Data Fusion
+An example of merging 2 datasets. You can find the notebook here *data-fusion-sol.ipynb*
 
 ## Data cleaning
 This is an example to apply data cleaning techniques. The main objective is to prepare the data to apply a prediction over the sales variable. 
