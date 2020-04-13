@@ -33,13 +33,15 @@ Possible datatypes for a column in a DataFrame: int,float, datetime, bool, categ
 
 ## Environment
 Jupyter Notebook is used for the execution of the examples. 
-You can create a virtualenv with all the necessary dependencies executing the following commands.  
+You can create a virtualenv with all the necessary dependencies executing the following commands.
 ```console
 virtualenv -p python3 workshop  
 source workshop/bin/activate  
 pip3 install -r requirements.txt   
-jupyter notebook   
-```
+jupyter nbextensions_configurator enable --user
+jupyter contrib nbextension install --user
+jupyter notebook 
+```  
 If you want to close the environment execute: 
 ```console
 deactivate
