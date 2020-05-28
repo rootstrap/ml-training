@@ -13,3 +13,4 @@ descartes==1.1.0
 jupyterlab
 jupyter-nbextensions-configurator
 jupyter_contrib_nbextensions
+ipywidgets
