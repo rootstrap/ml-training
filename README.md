@@ -61,40 +61,40 @@ In order to execute the notebooks and hide the solution follow these steps:
 ![Hide code](hide_code.png)    
 
 ## Playing with data frames 
-An example for basic actions over python datasets. You can find the notebook *intro-sol.ipynb*
+An example for basic actions over python datasets. You can find the notebook *[intro-sol.ipynb](intro-sol.ipynb)*
 
 ## Data Fusion
-An example of merging 2 datasets. You can find the notebook here *data-fusion-sol.ipynb*
+An example of merging 2 datasets. You can find the notebook here *[data-fusion-sol.ipynb](data-fusion-sol.ipynb)*
 
 ## Data cleaning
 This is an example to apply data cleaning techniques. The main objective is to prepare the data to apply a prediction over the sales variable. 
 Dataset: https://www.kaggle.com/kyanyoga/sample-sales-data/data. 
 It is important to notice that it might not be the only way of cleaning this data. It will depend on the needs and the meaning of each variable for your analysis.
-The notebook for this example is *data_cleaning.ipynb*.  
+The notebook for this example is *[data_cleaning.ipynb](data_cleaning.ipynb)*.  
 
 ## Data visualization  
-Several visualization methods are used in order to ilustrate examples of how to show results and analyze the data available. In this way it is easier to understand the data and the graphs can also help you to explain and support your assumptions. 
+Several visualization methods are used in order to ilustrate examples of how to show results and analyze the data available. In this way it is easier to understand the data and the graphs can also help you to explain and support your assumptions. Check this files: *[data_visualization.ipynb](data_visualization.ipynb), [data_visualization_1.ipynb](data_visualization_1.ipynb)*
 
 ## Regression Models
-This example uses the dataset from the cleaning process, which contains information about Sales. In the notebook *linear_regression.ipynb* you will find the excecution of the three different models to predict the Sales variable. A comparison between the predicted and real values of the sales variable for each of the models.   
+In the notebook *[linear-regression.ipynb](linear-regression.ipynb)* you will find the excecution of the three different prediction models. As well as is presented a comparison between the predicted and real values for each of the models.   
 
 ## Classification Models
-This examples use the dataset which is output of the data cleaning process. The notebook *classification_example.ipynb* contains models of classification. The main idea is to classify the Sales according to DEALSIZE variable. 
+This examples use the dataset which is output of the data cleaning process. The notebook *[classification_example.ipynb](classification_example.ipynb)* contains models of classification. The main idea is to classify the Sales according to DEALSIZE variable. 
 
 ## Clustering
 Some clustering methods are executed over a dataset for the Corruption Perception Index to see how countries are grouped according this index. You can find the data in gapminder website: https://www.gapminder.org/data/. This dataset is very simple, but the examples are just to get an idea of how the methods are used. Of course it gets more interestiong when you have more variables!.   
-The notebook with the examples is *clustering_example.ipynb*.
+The notebook with the examples is *[clustering_example.ipynb](clustering_example.ipynb)*.
 
 ## Neural Network
-Neural networks have many applications. Different application of neural networks are shown in these examples. One of the dataset used is the output from the cleaning process. The notebook in this case is *neural_network_example.ipynb*.
+Neural networks have many applications. Different application of neural networks are shown in these examples. One of the dataset used is the output from the cleaning process. The notebook in this case is *[neural_network_example.ipynb](neural_network_example.ipynb)*.
 
 ## Dimension Reduction  
-An example for dimension reduction is provided, appling Principal Components Analysis. It is explained how to choose the number of components and how to interpret the results. In order to better understanding of the results some graphs can be donde. The notebook for this example is *dimension_reduction.ipynb*. The dataset can be found in https://www.kaggle.com/unsdsn/world-happiness.
+An example for dimension reduction is provided, appling Principal Components Analysis. It is explained how to choose the number of components and how to interpret the results. In order to better understanding of the results some graphs can be donde. The notebook for this example is *[dimension_reduction.ipynb](dimension_reduction.ipynb)*. The dataset can be found in https://www.kaggle.com/unsdsn/world-happiness.
 Another example using digits dataset is presented, applying TSNE to visualize high dimensional data into a 2-dimensional graph.   
 
 
 ## Recommendation system
-An example for recommendation system is provided for content-based filtering. You can download the data from https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip. 
+An example for recommendation system is provided for content-based filtering. You can download the data from [moviedataset.zip](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip). 
 
 
 
