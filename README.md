@@ -6,11 +6,11 @@ Let’s get the hands dirty and put the theory in practice. Let yourself to expl
 In general, for the examples provided in this guide the focus is not the performance of the algorith (if it predicts well or not), instead the goal is to show simple applications of each of the algorithms to get a general idea about how an application each tecnique. 
 
 ## Languages 
-R, python and Scala are the most common languages used for data science and machine learning. Depending on the problem that you are trying to resolve, which one is the best to use.   
+R, python and Scala are the most common languages used for data science and machine learning. Depending on the problem that you are trying to resolve, which one is the best to use.
 
-While **R** is good for visualization and *statistics* data anylisis, **Python** is better for implementing *machine learning algorithms* since there are several libraries and it performs better. **Scala** is used for *Big Data* applications, for larger datasets, are good for parallel processing in a cluster.    
+While **R** is good for visualization and statistics data analytics, **Python** is better for implementing machine learning algorithms since there are several libraries and it performs better. **Scala** is used for **Big Data** applications, for larger datasets, and also for parallel processing in a cluster.
 
-In this tutorial we will be using Python, since it is easy to understand and we will be handle small datasets, and performing different models with them.    
+In this tutorial we will be using Python, since it is easy to understand and we will be handling not too big datasets, and performing different models with them.
 
 ## Python Libraries
 Here are mentioned the most common python libraries for data science.  
