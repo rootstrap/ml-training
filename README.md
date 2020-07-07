@@ -38,8 +38,6 @@ You can create a virtualenv with all the necessary dependencies executing the fo
 virtualenv -p python3 workshop  
 source workshop/bin/activate  
 pip3 install -r requirements.txt   
-jupyter nbextensions_configurator enable --user
-jupyter contrib nbextension install --user
 jupyter notebook 
 ```  
 If you want to close the environment execute: 
@@ -47,18 +45,7 @@ If you want to close the environment execute:
 deactivate
 ```
 ### Executing the examples 
-Go to http://localhost:8888/tree in the browser and open the notebook.   
-In order to execute the notebooks and hide the solution follow these steps:
-   
-1. Go to "Nbextensions"  
-2. Search for "hide_code" and enable it 
-3. Search for "Hide input all" and enable it   
-   
-![Enable extension](nbextensions.png)  
-
-4. Open the notebook and press a botton on the right that looks like an eye. 
-   
-![Hide code](hide_code.png)    
+Go to http://localhost:8888/tree in the browser and open the notebook.    
 
 ## Playing with data frames 
 An example for basic actions over python datasets. You can find the notebook *[intro-sol.ipynb](intro-sol.ipynb)*
@@ -88,10 +75,15 @@ The notebook with the examples is *[clustering_example.ipynb](clustering_example
 ## Neural Network
 Neural networks have many applications. Different application of neural networks are shown in these examples. One of the dataset used is the output from the cleaning process. The notebook in this case is *[neural_network_example.ipynb](neural_network_example.ipynb)*.
 
+## Taking samples 
+To prevent overfiting, different techniques are used, many of them are focused on the data set, and how the train and test samples are obtained for the model execution.  In this notebook, you can see these techniques: oversampling, stratified sample, train/test/validation split and cross-validation.  *[taking_samples.ipynb](taking_samples.ipynb)*.  
+
+## Prevent overfiting 
+Other techniques for preventing overfiting are used. Some of them based on the hyperparameters of the model, or ways of handing the learning process of the algorithm. Some of them are explained in this notebook. [prevent_overfiting.ipynb](prevent_overfiting.ipynb)*. 
+
 ## Dimension Reduction  
 An example for dimension reduction is provided, appling Principal Components Analysis. It is explained how to choose the number of components and how to interpret the results. In order to better understanding of the results some graphs can be donde. The notebook for this example is *[dimension_reduction.ipynb](dimension_reduction.ipynb)*. The dataset can be found in https://www.kaggle.com/unsdsn/world-happiness.
 Another example using digits dataset is presented, applying TSNE to visualize high dimensional data into a 2-dimensional graph.   
-
 
 ## Recommendation system
 An example for recommendation system is provided for content-based filtering. You can download the data from [moviedataset.zip](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip). 
