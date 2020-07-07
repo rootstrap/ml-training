@@ -79,7 +79,7 @@ Neural networks have many applications. Different application of neural networks
 To prevent overfiting, different techniques are used, many of them are focused on the data set, and how the train and test samples are obtained for the model execution.  In this notebook, you can see these techniques: oversampling, stratified sample, train/test/validation split and cross-validation.  *[taking_samples.ipynb](taking_samples.ipynb)*.  
 
 ## Prevent overfiting 
-Other techniques for preventing overfiting are used. Some of them based on the hyperparameters of the model, or ways of handing the learning process of the algorithm. Some of them are explained in this notebook. [prevent_overfiting.ipynb](prevent_overfiting.ipynb)*. 
+Other techniques for preventing overfiting are used. Some of them based on the hyperparameters of the model, or ways of handing the learning process of the algorithm. Some of them are explained in this notebook. *[prevent_overfiting.ipynb](prevent_overfiting.ipynb)*. 
 
 ## Dimension Reduction  
 An example for dimension reduction is provided, appling Principal Components Analysis. It is explained how to choose the number of components and how to interpret the results. In order to better understanding of the results some graphs can be donde. The notebook for this example is *[dimension_reduction.ipynb](dimension_reduction.ipynb)*. The dataset can be found in https://www.kaggle.com/unsdsn/world-happiness.
