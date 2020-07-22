@@ -1,3 +1,5 @@
+.mnist.npz.icloud
+data/
 etc/
 share/
 # Virtualenv
